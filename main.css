@@ -45,6 +45,7 @@ h1.white {
 
 .box__npc {
 	background: #ffeaa7;
+
 }
 
 .box__questions {
@@ -60,4 +61,7 @@ h1.white {
 .values	h2 {
 	color: #555555;
 	flex: 1;
+}
+.img1{
+	
 }
