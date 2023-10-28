@@ -14,10 +14,6 @@ h1.white {
 .box {
 	margin: 5rem;
 	height: 150vh;
-	padding: 1rem;
-	background: #ffeaa7;
-	border: 2px solid #ffeaa7;
-	border-radius: 3rem;
 	display: flex;
 	height: 100%;
 }
@@ -25,8 +21,43 @@ h1.white {
 .box > div {
 	flex: 1;
 	height: 20rem;
+	display: flex;
+}
+
+.box > div h1 {
+	margin: auto;
+	color: #2d3436;
+}
+
+.box > div:first-child{
+	border-top-left-radius: 3rem;
+	border-bottom-left-radius: 3rem;
+}
+
+.box > div:last-child{
+	border-top-right-radius: 3rem;
+	border-bottom-right-radius: 3rem;
+}
+
+.box__info {
+	background: #ffeaa7;
+}
+
+.box__npc {
+	background: #ffeaa7;
 }
 
 .box__questions {
 	background: #ff7675;
 } 
+
+.values {
+	margin: 5rem;
+	margin-bottom: 0;
+	display: flex;
+}
+
+.values	h2 {
+	color: #555555;
+	flex: 1;
+}
