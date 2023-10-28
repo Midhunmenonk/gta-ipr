@@ -18,4 +18,15 @@ h1.white {
 	background: #ffeaa7;
 	border: 2px solid #ffeaa7;
 	border-radius: 3rem;
+	display: flex;
+	height: 100%;
 }
+
+.box > div {
+	flex: 1;
+	height: 20rem;
+}
+
+.box__questions {
+	background: #ff7675;
+} 
