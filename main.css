@@ -1,8 +1,17 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto+Mono&display=swap');
 
+@font-face {
+  font-family: FontAwesome;
+  src: url("fonts/fontawesome-webfont.woff2")
+}
+
 body {
 	background: #2d3436;
 	font-family: 'Roboto Mono';
+}
+
+a {
+	text-decoration: none;
 }
 
 h1.white {
@@ -13,14 +22,12 @@ h1.white {
 
 .box {
 	margin: 5rem;
-	height: 150vh;
+	height: 100vh;
 	display: flex;
-	height: 100%;
 }
 
 .box > div {
 	flex: 1;
-	height: 20rem;
 	display: flex;
 }
 
@@ -60,4 +67,29 @@ h1.white {
 .values	h2 {
 	color: #555555;
 	flex: 1;
+}
+
+.next {
+	position: fixed;
+	bottom: 0;
+	right: 0;
+	margin: 2rem;
+	background: #ffeaa7;
+	width: 5rem;
+	height: 5rem;
+	display: flex;
+	border-radius: 50%;
+	transition: background ease 0.4s;
+}
+
+.next:hover {
+	background:#ff7675 ;
+}
+
+.next a {
+	margin: auto;
+	font-size: 4rem;
+	transform: translateX(2.5px);
+	color: #2d3436;
+	font-family: FontAwesome;
 }
